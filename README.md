@@ -1,1 +1,1 @@
-# Gesti-n_aplicaicones_ubuntu
+# Creador_aplicaciones_ubuntu
