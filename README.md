@@ -26,6 +26,7 @@ Listar apps disponibles:
 ## Apps incluidas
 
 - `duckstation-updater`: comprueba e instala la última compilación oficial de DuckStation.
+- `plex-control`: control gráfico para iniciar y detener Plex Media Server (snap).
 
 ## Añadir una app nueva
 

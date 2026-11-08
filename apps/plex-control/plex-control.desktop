@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Control Plex
+GenericName=Control de Plex Media Server
+Comment=Inicia y detiene Plex Media Server (snap)
+Exec=__HOME__/.local/bin/plex-control
+Icon=plex-control
+Terminal=false
+Categories=AudioVideo;Utility;
+Keywords=plex;media;server;control;
+StartupNotify=true
