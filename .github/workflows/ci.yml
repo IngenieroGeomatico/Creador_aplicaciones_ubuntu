@@ -1,0 +1,18 @@
+name: ci
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install deps
+        run: sudo apt-get update && sudo apt-get install -y python3-gi gir1.2-gtk-4.0 gir1.2-adw-1
+      - name: Python syntax
+        run: python3 -m compileall -q apps templates tools
+      - name: Shellcheck
+        run: sudo apt-get install -y shellcheck && shellcheck install.sh apps/*/install.sh apps/*/uninstall.sh templates/gtk4-app/install.sh
+      - name: Test installer
+        run: ./install.sh duckstation-updater && test -x ~/.local/bin/duckstation-updater

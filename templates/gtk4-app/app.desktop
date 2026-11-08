@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=__APP_DISPLAY__
+GenericName=__APP_DISPLAY__
+Comment=Aplicación GTK4/libadwaita
+Exec=__HOME__/.local/bin/__APP_NAME__
+Icon=__APP_NAME__
+Terminal=false
+Categories=Utility;
+Keywords=__APP_NAME__;
+StartupNotify=true
+StartupWMClass=__APP_ID__

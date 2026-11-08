@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=DuckStation Updater
+GenericName=Actualizador de DuckStation
+Comment=Comprueba e instala la última versión oficial de DuckStation
+Exec=__HOME__/.local/bin/duckstation-updater
+Icon=duckstation-updater
+Terminal=false
+Categories=Game;Emulator;
+Keywords=duckstation;emulator;update;actualizar;
+StartupNotify=true
+StartupWMClass=io.github.radi.DuckStationUpdater

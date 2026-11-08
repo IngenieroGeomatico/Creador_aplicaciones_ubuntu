@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- agua -->
+  <path d="M0 96 Q32 86 64 96 T128 96 L128 128 L0 128 Z" fill="#4fc3f7"/>
+  <path d="M0 100 Q24 92 48 100 T96 100 T128 100" fill="none" stroke="#0288d1" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <!-- cuerpo -->
+  <ellipse cx="60" cy="78" rx="46" ry="34" fill="#ffca28" stroke="#f57f17" stroke-width="3"/>
+  <!-- ala -->
+  <path d="M26 74 Q48 60 76 76" fill="none" stroke="#f9a825" stroke-width="4" stroke-linecap="round"/>
+  <!-- cabeza -->
+  <circle cx="92" cy="46" r="26" fill="#ffca28" stroke="#f57f17" stroke-width="3"/>
+  <!-- pico -->
+  <path d="M114 44 L134 40 L134 52 L114 50 Z" fill="#ff7043" stroke="#d84315" stroke-width="2" stroke-linejoin="round"/>
+  <!-- ojo -->
+  <circle cx="84" cy="40" r="5.5" fill="#212121"/>
+  <circle cx="86" cy="38" r="2" fill="#ffffff"/>
+  <!-- badge de actualización -->
+  <circle cx="26" cy="26" r="20" fill="#1976d2" stroke="#ffffff" stroke-width="3"/>
+  <path d="M26 12 A14 14 0 1 1 12 26" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+  <polygon points="12,26 6,20 18,20" fill="#ffffff"/>
+</svg>
