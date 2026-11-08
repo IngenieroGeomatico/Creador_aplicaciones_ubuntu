@@ -1,0 +1,1 @@
+# Gesti-n_aplicaicones_ubuntu
